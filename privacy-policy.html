@@ -6,72 +6,93 @@
   <title>Privacy Policy - Bookshelf App</title>
   <style>
     body {
-      font-family: sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       line-height: 1.6;
-      padding: 20px;
-      background-color: #ffffff;
+      padding: 40px;
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: #f8f9fa;
       color: #333333;
     }
     h1, h2 {
       color: #2c3e50;
     }
+    h1 {
+      border-bottom: 2px solid #1e88e5;
+      padding-bottom: 10px;
+      margin-bottom: 30px;
+    }
+    h2 {
+      margin-top: 30px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 15px;
+    }
     a {
       color: #1e88e5;
       text-decoration: none;
+      font-weight: 500;
     }
     a:hover {
       text-decoration: underline;
+    }
+    .footer {
+      margin-top: 50px;
+      padding-top: 20px;
+      border-top: 1px solid #dee2e6;
+      font-size: 0.9em;
+      color: #6c757d;
+      text-align: center;
+    }
+    .accent {
+      color: #1e88e5;
+      font-weight: bold;
     }
   </style>
 </head>
 <body>
   <h1>📃 Privacy Policy</h1>
-  <p><strong>Effective Date:</strong> May 12, 2025</p>
+  <p><strong>Effective Date:</strong> January 13, 2026</p>
 
-  <p>Bookshelf is committed to protecting your privacy. This Privacy Policy describes how your personal information is handled in the Bookshelf app for Android.</p>
+  <p>At <span class="accent">Bookshelf</span>, we are dedicated to providing a safe, transparent, and enjoyable experience for all book enthusiasts. This Privacy Policy outlines how we handle data to ensure your privacy while offering a feature-rich environment built with modern Android technologies.</p>
 
-  <h2>1. Information We Collect</h2>
-  <p>We do <strong>not</strong> collect any personally identifiable information directly from users.</p>
-  <p>However, we use third-party services that may collect certain data automatically:</p>
+  <h2>1. Information Collection & Third-Party Services</h2>
+  <p>We respect your privacy and do <strong>not</strong> collect personally identifiable information directly. To provide a high-quality service, we utilize trusted third-party providers that may collect anonymized usage data:</p>
   <ul>
-    <li><strong>Google Books API</strong>: Used to fetch book data. No user-identifiable information is sent.</li>
-    <li><strong>Google AdMob</strong>: Displays banner ads and may collect anonymized data to provide relevant advertising.</li>
+    <li><strong>Google Books API</strong>: Used to fetch book metadata, descriptions, and covers. No personal data is sent to this service.</li>
+    <li><strong>Google AdMob</strong>: Displays non-personalized banner and interstitial ads to support the app's free availability. Google may use anonymized identifiers to serve ads and measure performance.</li>
+    <li><strong>Google Play Billing</strong>: Facilitates secure transactions for premium feature purchases. We do not store your payment information directly.</li>
+    <li><strong>Firebase Analytics & Crashlytics</strong>: Helps us monitor app stability, diagnose crashes, and understand usage patterns to improve the app.</li>
+    <li><strong>Firebase Cloud Messaging (FCM)</strong>: Used to deliver book recommendations and optional updates. You can manage notification permissions through your system settings.</li>
   </ul>
 
-  <h2>2. Third-Party Services</h2>
-  <p>We use the following third-party services:</p>
+  <h2>2. Local Data Persistence</h2>
+  <p>For a seamless and responsive experience, certain information is stored locally on your device. This data remains on your device and is not uploaded to our servers:</p>
   <ul>
-    <li><strong>Google Books API</strong><br>
-      Used to retrieve public book data including titles, authors, and images.<br>
-      Data fetched is not linked to you personally.
-    </li>
-    <li><strong>Google AdMob (Ads)</strong><br>
-      We show non-personalized banner ads to help support the app’s free availability.<br>
-      Google may use cookies or identifiers to show relevant ads and measure performance.<br>
-      For more information, please refer to <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a>.
-    </li>
+    <li><strong>Jetpack DataStore</strong>: Stores your application preferences, such as theme selection (Light/Dark/System) and connectivity settings.</li>
+    <li><strong>Room Database</strong>: Caches your favorite books ("My Books") and recent search results to ensure fast access and offline availability.</li>
   </ul>
 
-  <h2>3. Child-Friendly Content Filtering</h2>
-  <p>To provide a safe and modest experience for users of all ages, especially children, the Bookshelf app automatically filters out books that contain adult, violent, or political themes. This filtering is based on metadata such as book categories and descriptions retrieved from the Google Books API. While we strive to exclude inappropriate content, we cannot guarantee that all filtered results will be completely free from sensitive material due to third-party data limitations.</p>
+  <h2>3. Content Safety & Moderation</h2>
+  <p>Bookshelf is designed to be a safe platform for readers of all ages. We implement automated filtering based on API metadata to exclude books with mature, violent, or sensitive themes. While we strive for 100% accuracy, we encourage users to report any concerns to our support email.</p>
 
-  <h2>4. Data Usage</h2>
-  <p>The Bookshelf app does not:</p>
-  <ul>
-    <li>Collect or store personal data</li>
-    <li>Require user accounts or login</li>
-    <li>Access sensitive device permissions</li>
-  </ul>
-  <p>All network requests are limited to retrieving publicly available book information or displaying ads via Google AdMob.</p>
+  <h2>4. Data Security</h2>
+  <p>The Bookshelf app is built with security in mind. We do not require account creation, logins, or access to sensitive device permissions (such as contacts or location). All network requests are conducted over secure (HTTPS) connections.</p>
 
   <h2>5. Changes to This Policy</h2>
-  <p>We may update this policy periodically. You will be notified of any major changes by updating this document and optionally through the app’s About section.</p>
+  <p>We may update this policy periodically to reflect changes in our services or legal requirements. Updated versions will be posted here, and major changes will be highlighted in the app's "About" section.</p>
 
   <h2>6. Contact Us</h2>
-  <p>If you have any questions or concerns about this privacy policy, feel free to contact us at:<br>
-  📧 <a href="mailto:bookshelf.developer@gmail.com">bookshelf.developer@gmail.com</a>
-  
-  <p><em>By using the Bookshelf app, you agree to the terms outlined in this Privacy Policy.</em></p>
+  <p>If you have any questions or concerns regarding this privacy policy, please contact us at:<br>
+  📧 <a href="mailto:bookshelf.developer@gmail.com">bookshelf.developer@gmail.com</a></p>
+
+  <div class="footer">
+    <p><em>By using the Bookshelf app, you acknowledge and agree to the terms outlined in this Privacy Policy.</em></p>
+    <p>&copy; 2026 Bookshelf App Team</p>
+  </div>
 
 </body>
 </html>
