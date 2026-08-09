@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.huda.bookshelf",
+      "sha256_cert_fingerprints": [
+        "E5:01:05:C3:93:C4:27:CE:0B:88:8D:2E:A8:99:80:66:D6:A5:D6:D4:43:DE:28:39:48:A3:22:9F:B7:78:6E:10"
+      ]
+    }
+  }
+]
