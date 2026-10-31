@@ -1,9 +1,9 @@
 # Privacy Policy for Bookshelf
 
-**Effective Date:** August 9, 2026  
-**Last Updated:** August 9, 2026
+**Effective Date:** November 1, 2026  
+**Last Updated:** November 1, 2026
 
-Huda AbuSharr, an independent developer ("we," "our," or "us"), operates the Bookshelf mobile application.
+Huda AbuSharr, an independent developer, operates the Bookshelf mobile application.
 
 This Privacy Policy explains what information Bookshelf processes, how it is used, and the choices available to you.
 
@@ -12,6 +12,7 @@ This Privacy Policy explains what information Bookshelf processes, how it is use
 Depending on how you use Bookshelf, we may process the following categories of information:
 
 - **Account Information:** email address, user ID, display name, profile photo if you choose to add one, and sign-in details for email/password or Google sign-in.
+- **Profile and Community Data:** the public profile, book ratings, follows, and reading activity you create.
 - **User Library Data:** book identifiers, titles, cover-image URLs, favorite, read, and saved book states, library-sync metadata, and account-linked library records.
 - **Local App Data:** theme, dynamic color, notification, guest-session, premium, AI-usage, Wi-Fi-download, and reader preferences; reading progress; cached book metadata; saved AI chat history; downloaded EPUB state; and local library state.
 - **Search and Discovery Data:** in-app search terms, category interactions, movie-to-book query inputs, and discovery request parameters.
@@ -19,6 +20,7 @@ Depending on how you use Bookshelf, we may process the following categories of i
 - **AI Feature Request Data:** chat prompts and related metadata such as book titles, authors, categories, language, favorite books, movie titles, and scanner image content.
 - **Purchase and Entitlement Data:** Remove Ads status, AI Premium status, purchase metadata, and entitlement-verification data.
 - **Device and Diagnostics Data:** app version, device and operating-system details, and crash reports.
+- **App Usage Data:** app usage events, such as which screens and features are used, collected through Firebase Analytics to understand how Bookshelf is used and improve it.
 - **Messaging Data:** Firebase Cloud Messaging (FCM) token when you are signed in and notifications are enabled.
 - **Advertising Data:** ad-related identifiers and interaction events for non-premium users, subject to platform settings and applicable consent choices.
 - **Content Request Data:** search, preview, EPUB lookup, download, and external-link request parameters used to fetch book metadata or reading content.
@@ -45,7 +47,7 @@ Bookshelf relies on third-party book data, previews, downloads, and linked readi
 
 Bookshelf uses third-party services, including:
 
-- Firebase Authentication, Firestore, App Check, Crashlytics, Cloud Messaging, and Firebase Functions;
+- Firebase Authentication, Firestore, App Check, Crashlytics, Cloud Messaging, Analytics, Remote Config, and Firebase AI Logic;
 - Google sign-in;
 - Google AdMob and its mediation partners, including Meta Audience Network and Unity Ads;
 - Google Play Billing;
@@ -91,9 +93,11 @@ Because Bookshelf relies on cloud providers and external content services, data 
 
 Depending on your local laws, you may have the right to access, correct, or delete personal data. You can use Settings to manage notifications and, where shown, advertising consent.
 
-You can request deletion of your account and synced library data by contacting:
+You can delete your account and its synced data, including your library, profile, ratings, follows, and activity, in **Settings > Delete account**, or by contacting:
 
 **bookshelf.developer@gmail.com**
+
+Deleting your account does not cancel an AI Premium subscription; cancel it in Google Play.
 
 You can also remove local data by clearing saved chat history where available, clearing app storage, or uninstalling the app. Files saved through Android Downloads must be deleted from your device separately.
 
