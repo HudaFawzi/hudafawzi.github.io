@@ -13,6 +13,7 @@ Depending on how you use Bookshelf, we may process the following categories of i
 
 - **Account Information:** email address, user ID, display name, profile photo if you choose to add one, and sign-in details for email/password or Google sign-in. A resized copy of your profile photo is stored with your account so it syncs across your devices; it isn't shown on your public profile.
 - **Public Profile Data:** if you turn on a public profile, the details it shows: your display name, bio, favorite genres, and your library's books with their titles, covers, and favorite, read, or saved status.
+- **Synced Reading Data (Premium):** your reading position, bookmarks, highlights and notes for each book, stored with your account so they're available on your other devices and deleted with your account.
 - **User Library Data:** book identifiers, titles, cover-image URLs, favorite, read, and saved book states, library-sync metadata, and account-linked library records.
 - **Local App Data:** theme, dynamic color, notification, guest-session, premium, AI-usage, Wi-Fi-download, and reader preferences; reading progress; cached book metadata; saved AI chat history; downloaded EPUB state; and local library state.
 - **Search and Discovery Data:** in-app search terms, category interactions, movie-to-book query inputs, and discovery request parameters.
@@ -72,7 +73,7 @@ AI requests, such as chat messages, book details, movie titles, and scanner imag
 
 ## 5. Data Retention
 
-Local cached books, app preferences, reader preferences, reading progress, downloaded EPUB state, AI-usage counters, and saved AI chat history remain on your device until you clear them where available, clear app data, uninstall the app, or they are replaced by newer cache entries. Chat history remains on the device after sign-out until it is cleared, app data is cleared, or the app is uninstalled. Files saved through Android Downloads may remain on your device until you delete them separately.
+Local cached books, app preferences, reader preferences, reading progress, downloaded EPUB state, AI-usage counters, and saved AI chat history remain on your device until you clear them where available, clear app data, uninstall the app, or they are replaced by newer cache entries. Chat history remains on the device after sign-out until it is cleared, app data is cleared, or the app is uninstalled. Files saved through Android Downloads may remain on your device until you delete them separately. Reading insights (time spent reading and reading speed) are worked out and kept only on your device.
 
 Signed-in account and synced library data are generally kept while your account remains active. Purchase, crash, messaging, and provider-handled records are retained according to operational, legal, or provider-policy requirements.
 
@@ -107,7 +108,7 @@ You can delete your Bookshelf account and its synced data, including your librar
 - **In the app:** open **Settings > Delete account** and confirm with your Google account or password.
 - **By email, without the app:** send a message to **bookshelf.developer@gmail.com** from the email address on your account, with the subject "Delete my Bookshelf account". We'll delete the account within 30 days and confirm by email.
 
-Deleting your account removes your account, library, profile, public profile, and AI usage counts. Purchase records, crash reports, and analytics data are kept as described in section 5, and reports you made about AI-generated content are kept for review.
+Deleting your account removes your account, library, profile, public profile, synced reading data, and AI usage counts. Purchase records, crash reports, and analytics data are kept as described in section 5, and reports you made about AI-generated content are kept for review.
 
 Deleting your account does not cancel a Premium subscription; cancel it in Google Play.
 
