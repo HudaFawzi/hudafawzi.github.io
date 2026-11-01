@@ -11,16 +11,16 @@ This Privacy Policy explains what information Bookshelf processes, how it is use
 
 Depending on how you use Bookshelf, we may process the following categories of information:
 
-- **Account Information:** email address, user ID, display name, profile photo if you choose to add one, and sign-in details for email/password or Google sign-in.
-- **Profile and Community Data:** the public profile, book ratings, follows, and reading activity you create.
+- **Account Information:** email address, user ID, display name, profile photo if you choose to add one, and sign-in details for email/password or Google sign-in. A resized copy of your profile photo is stored with your account so it syncs across your devices; it isn't shown on your public profile.
+- **Public Profile Data:** if you turn on a public profile, the details it shows: your display name, bio, favorite genres, and your library's books with their titles, covers, and favorite, read, or saved status.
 - **User Library Data:** book identifiers, titles, cover-image URLs, favorite, read, and saved book states, library-sync metadata, and account-linked library records.
 - **Local App Data:** theme, dynamic color, notification, guest-session, premium, AI-usage, Wi-Fi-download, and reader preferences; reading progress; cached book metadata; saved AI chat history; downloaded EPUB state; and local library state.
 - **Search and Discovery Data:** in-app search terms, category interactions, movie-to-book query inputs, and discovery request parameters.
 - **Book Scanner Data:** images selected from the gallery or captured with the camera when you use scanner identification.
 - **AI Feature Request Data:** chat prompts and related metadata such as book titles, authors, categories, language, favorite books, movie titles, and scanner image content.
-- **Purchase and Entitlement Data:** Remove Ads status, AI Premium status, purchase metadata, and entitlement-verification data.
+- **Purchase and Entitlement Data:** Remove Ads status, Premium status, purchase metadata, and entitlement-verification data.
 - **Device and Diagnostics Data:** app version, device and operating-system details, and crash reports.
-- **App Usage Data:** app usage events, such as which screens and features are used, collected through Firebase Analytics to understand how Bookshelf is used and improve it.
+- **App Usage Data:** app usage events collected through Firebase Analytics, such as screens and features used, purchases (product, price, and order ID), taps on purchase links (book ID), and genres you choose, together with device identifiers such as the Firebase app instance ID and, where permitted, the advertising ID, to understand how Bookshelf is used and improve it.
 - **Messaging Data:** Firebase Cloud Messaging (FCM) token when you are signed in and notifications are enabled.
 - **Advertising Data:** ad-related identifiers and interaction events for non-premium users, subject to platform settings and applicable consent choices.
 - **Content Request Data:** search, preview, EPUB lookup, download, and external-link request parameters used to fetch book metadata or reading content.
@@ -54,7 +54,8 @@ Bookshelf uses third-party services, including:
 - Cloudflare Workers and D1 for purchase-entitlement verification;
 - Google Books API;
 - Open Library API;
-- Gutendex; and
+- Gutendex and Project Gutenberg;
+- GitHub, which hosts the app's quote updates; and
 - Google Gemini AI.
 
 Bookshelf also includes bundled Goodreads-derived book suggestions for discovery. This feature does not send your personal data to Goodreads.
@@ -67,13 +68,17 @@ We do not sell personal data.
 
 We may share data only with service providers needed to operate Bookshelf, when you request external content or AI features, when required by law, or when necessary to protect users, rights, or service integrity. For ad-supported users, ad providers and their mediation partners may process advertising and device data according to your consent choices and their own policies.
 
+AI requests, such as chat messages, book details, movie titles, and scanner images, are sent to Google's Gemini API through Firebase AI Logic. Bookshelf uses the Gemini API's free tier, under which Google may use this content to improve its products and human reviewers may read it, so don't include personal or sensitive information in AI requests.
+
 ## 5. Data Retention
 
 Local cached books, app preferences, reader preferences, reading progress, downloaded EPUB state, AI-usage counters, and saved AI chat history remain on your device until you clear them where available, clear app data, uninstall the app, or they are replaced by newer cache entries. Chat history remains on the device after sign-out until it is cleared, app data is cleared, or the app is uninstalled. Files saved through Android Downloads may remain on your device until you delete them separately.
 
 Signed-in account and synced library data are generally kept while your account remains active. Purchase, crash, messaging, and provider-handled records are retained according to operational, legal, or provider-policy requirements.
 
-Scanner images are processed for identification and are not stored by Bookshelf as part of your synced library data. Some local app data may also be included in Android backup or restore according to your device settings.
+Scanner images are processed for identification and are not stored by Bookshelf as part of your synced library data. Some local app data may also be included in Android backup or restore according to your device settings. Android's cloud backup can include saved chat history, your cached library, reading progress, and preferences, but not downloaded books.
+
+AI usage counts are also stored with your account to apply free-use limits and are deleted with your account. If you report AI-generated content, the report, including that content and your user ID, is kept for review and isn't removed when you delete your account.
 
 ## 6. Security
 
@@ -93,13 +98,18 @@ Because Bookshelf relies on cloud providers and external content services, data 
 
 Depending on your local laws, you may have the right to access, correct, or delete personal data. You can use Settings to manage notifications and, where shown, advertising consent.
 
-You can delete your account and its synced data, including your library, profile, ratings, follows, and activity, in **Settings > Delete account**, or by contacting:
-
-**bookshelf.developer@gmail.com**
-
-Deleting your account does not cancel an AI Premium subscription; cancel it in Google Play.
-
 You can also remove local data by clearing saved chat history where available, clearing app storage, or uninstalling the app. Files saved through Android Downloads must be deleted from your device separately.
+
+### Deleting your account
+
+You can delete your Bookshelf account and its synced data, including your library and profile, in two ways:
+
+- **In the app:** open **Settings > Delete account** and confirm with your Google account or password.
+- **By email, without the app:** send a message to **bookshelf.developer@gmail.com** from the email address on your account, with the subject "Delete my Bookshelf account". We'll delete the account within 30 days and confirm by email.
+
+Deleting your account removes your account, library, profile, public profile, and AI usage counts. Purchase records, crash reports, and analytics data are kept as described in section 5, and reports you made about AI-generated content are kept for review.
+
+Deleting your account does not cancel a Premium subscription; cancel it in Google Play.
 
 ## 10. Policy Changes
 
